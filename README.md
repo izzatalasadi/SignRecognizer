@@ -43,6 +43,25 @@ Python script implements a sign language recognition system using a combination 
   * Evaluates the model's performance on the test set.
   * Saves the trained model.
 
+## Model evaluation
+  Epoch 9/10
+  344/344 [==============================] - ETA: 0s - loss: 0.0176 - accuracy: 0.9942 
+  Epoch 9: ReduceLROnPlateau reducing learning rate to 0.0002500000118743628.
+  344/344 [==============================] - 14s 41ms/step - loss: 0.0176 - accuracy: 0.9942 - val_loss: 0.0025 - val_accuracy: 0.9993 - lr: 5.0000e-04
+  Epoch 10/10
+  344/344 [==============================] - 14s 40ms/step - loss: 0.0113 - accuracy: 0.9965 - val_loss: 2.4211e-04 - val_accuracy: 1.0000 - lr: 2.5000e-04
+  Model trained successfully.
+  225/225 [==============================] - 1s 7ms/step - loss: 0.0013 - accuracy: 1.0000
+  Test accuracy: 1.0
+  Test loss: 0.001259661396034062
+
+## Test
+![image]()
+<img width="1107" alt="image" src="https://github.com/izzatalasadi/SignRecognizer/assets/17545900/6d720ede-d5e5-4332-aefa-ac1fd88001b6">
+
+<img width="1107" alt="image" src="https://github.com/izzatalasadi/SignRecognizer/assets/17545900/127a579d-c5f1-4c79-8e00-380352ec686d">
+
+
 ## Note:
 
   * This script uses sign language dataset in CSV format ("sign_mnist_train.csv" and "sign_mnist_test.csv"). Ensure these files are available in the specified locations.
