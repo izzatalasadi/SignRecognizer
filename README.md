@@ -66,6 +66,7 @@ Python script implements a sign language recognition system using a combination 
 
   * This script uses sign language dataset in CSV format ("sign_mnist_train.csv" and "sign_mnist_test.csv"). Ensure these files are available in the specified locations.
   * Datasets can be find in this link "https://www.kaggle.com/code/arjaiswal/sign-mnist-using-cnn/input"
+  * CSV files must be added to /data/
 
 ## Done and future work
 ### Done
